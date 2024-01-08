@@ -1,5 +1,5 @@
 {% set name = "repro-zipfile" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/repro_zipfile-{{ version }}.tar.gz
-  sha256: f9f84760e68adb5adca1b9e670356a7ec2885739d23016944bc380dde238006d
+  sha256: 32f98f1a2d8db80aac90aa7571137838b92697b70ba0849356b54ae885cb7446
 
 build:
   noarch: python
